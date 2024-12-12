@@ -1,0 +1,136 @@
+2024-12-07 15:37:02.396  INFO 10476 --- [main] io.renren.RenrenApplication              : Starting RenrenApplication using Java 1.8.0_171 on ppj with PID 10476 (D:\software\softwareData\myProject\GuLi-Mall\renren-fast\target\classes started by 10437 in D:\software\softwareData\myProject\GuLi-Mall)
+2024-12-07 15:37:02.410 DEBUG 10476 --- [main] io.renren.RenrenApplication              : Running with Spring Boot v2.6.13, Spring v5.3.23
+2024-12-07 15:37:02.411  INFO 10476 --- [main] io.renren.RenrenApplication              : The following 1 profile is active: "dev"
+2024-12-07 15:37:03.126  INFO 10476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-07 15:37:03.128  INFO 10476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-07 15:37:03.160  INFO 10476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2024-12-07 15:37:03.331  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [io.renren.config.ShiroConfig$$EnhancerBySpringCGLIB$$aa082b45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:03.606  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:03.611  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisPlusConfig' of type [io.renren.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$d343261] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:03.618  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:03.623  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$8454fc4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:03.628  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dynamic-io.renren.datasource.properties.DynamicDataSourceProperties' of type [io.renren.datasource.properties.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:03.630  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dynamicDataSourceConfig' of type [io.renren.datasource.config.DynamicDataSourceConfig$$EnhancerBySpringCGLIB$$adada995] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:03.633  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceProperties' of type [io.renren.datasource.properties.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:04.316  INFO 10476 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-12-07 15:37:04.318  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dynamicDataSource' of type [io.renren.datasource.config.DynamicDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.225  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.230  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.231  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sysMenuDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.235  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sysMenuDao' of type [com.sun.proxy.$Proxy88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.240  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.241  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserDao' of type [com.sun.proxy.$Proxy89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.242  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserTokenDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.243  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserTokenDao' of type [com.sun.proxy.$Proxy90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.244  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroServiceImpl' of type [io.renren.modules.sys.service.impl.ShiroServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.245  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'JWTRealm' of type [io.renren.modules.sys.jwt.JWTRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.266  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.274  INFO 10476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-07 15:37:05.492  INFO 10476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-07 15:37:05.500  INFO 10476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-07 15:37:05.500  INFO 10476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-07 15:37:05.593  INFO 10476 --- [main] o.a.c.c.C.[.[localhost].[/renren-fast]   : Initializing Spring embedded WebApplicationContext
+2024-12-07 15:37:05.593  INFO 10476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3156 ms
+2024-12-07 15:37:06.119  INFO 10476 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2024-12-07 15:37:06.130  INFO 10476 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-12-07 15:37:06.131  INFO 10476 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2024-12-07 15:37:06.138  INFO 10476 --- [main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2024-12-07 15:37:06.140  INFO 10476 --- [main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2024-12-07 15:37:06.141  INFO 10476 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'RenrenScheduler' with instanceId 'ppj1733557026120'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2024-12-07 15:37:06.141  INFO 10476 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'RenrenScheduler' initialized from an externally provided properties instance.
+2024-12-07 15:37:06.141  INFO 10476 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2024-12-07 15:37:06.142  INFO 10476 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5981f2c6
+2024-12-07 15:37:06.211 DEBUG 10476 --- [main] i.r.m.job.dao.ScheduleJobDao.selectList  : ==>  Preparing: SELECT job_id,bean_name,params,cron_expression,status,remark,create_time FROM schedule_job 
+2024-12-07 15:37:06.303 DEBUG 10476 --- [main] i.r.m.job.dao.ScheduleJobDao.selectList  : ==> Parameters: 
+2024-12-07 15:37:06.386 DEBUG 10476 --- [main] i.r.m.job.dao.ScheduleJobDao.selectList  : <==      Total: 1
+2024-12-07 15:37:07.109  INFO 10476 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-12-07 15:37:07.595  INFO 10476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/renren-fast'
+2024-12-07 15:37:07.596  INFO 10476 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-12-07 15:37:07.611  INFO 10476 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-12-07 15:37:07.641  INFO 10476 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-12-07 15:37:07.752  INFO 10476 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: userInfoUsingGET_1
+2024-12-07 15:37:07.762  INFO 10476 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Will start Quartz Scheduler [RenrenScheduler] in 30 seconds
+2024-12-07 15:37:07.769  INFO 10476 --- [main] io.renren.RenrenApplication              : Started RenrenApplication in 5.705 seconds (JVM running for 6.625)
+2024-12-07 15:37:37.763  INFO 10476 --- [Quartz Scheduler [RenrenScheduler]] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now, after delay of 30 seconds
+2024-12-07 15:37:37.780  INFO 10476 --- [Quartz Scheduler [RenrenScheduler]] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2024-12-07 15:37:37.780  INFO 10476 --- [Quartz Scheduler [RenrenScheduler]] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "ppj1733451636367"'s failed in-progress jobs.
+2024-12-07 15:37:37.784  INFO 10476 --- [Quartz Scheduler [RenrenScheduler]] org.quartz.core.QuartzScheduler          : Scheduler RenrenScheduler_$_ppj1733557026120 started.
+2024-12-07 15:37:37.789  INFO 10476 --- [QuartzScheduler_RenrenScheduler-ppj1733557026120_MisfireHandler] o.s.s.quartz.LocalDataSourceJobStore     : Handling 1 trigger(s) that missed their scheduled fire-time.
+2024-12-07 16:00:00.031 DEBUG 10476 --- [RenrenScheduler_Worker-1] io.renren.modules.job.utils.ScheduleJob  : 任务准备执行，任务ID：1
+2024-12-07 16:00:00.031 DEBUG 10476 --- [RenrenScheduler_Worker-1] io.renren.modules.job.task.TestTask      : TestTask定时任务正在执行，参数为：renren
+2024-12-07 16:00:00.031 DEBUG 10476 --- [RenrenScheduler_Worker-1] io.renren.modules.job.utils.ScheduleJob  : 任务执行完毕，任务ID：1  总共耗时：0毫秒
+2024-12-07 16:00:00.038 DEBUG 10476 --- [RenrenScheduler_Worker-1] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==>  Preparing: INSERT INTO schedule_job_log ( job_id, bean_name, params, status, times, create_time ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2024-12-07 16:00:00.040 DEBUG 10476 --- [RenrenScheduler_Worker-1] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==> Parameters: 1(Long), testTask(String), renren(String), 0(Integer), 0(Integer), 2024-12-07 16:00:00.031(Timestamp)
+2024-12-07 16:00:00.043 DEBUG 10476 --- [RenrenScheduler_Worker-1] i.r.m.job.dao.ScheduleJobLogDao.insert   : <==    Updates: 1
+2024-12-07 16:30:00.006 DEBUG 10476 --- [RenrenScheduler_Worker-2] io.renren.modules.job.utils.ScheduleJob  : 任务准备执行，任务ID：1
+2024-12-07 16:30:00.007 DEBUG 10476 --- [RenrenScheduler_Worker-2] io.renren.modules.job.task.TestTask      : TestTask定时任务正在执行，参数为：renren
+2024-12-07 16:30:00.007 DEBUG 10476 --- [RenrenScheduler_Worker-2] io.renren.modules.job.utils.ScheduleJob  : 任务执行完毕，任务ID：1  总共耗时：1毫秒
+2024-12-07 16:30:00.010 DEBUG 10476 --- [RenrenScheduler_Worker-2] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==>  Preparing: INSERT INTO schedule_job_log ( job_id, bean_name, params, status, times, create_time ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2024-12-07 16:30:00.010 DEBUG 10476 --- [RenrenScheduler_Worker-2] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==> Parameters: 1(Long), testTask(String), renren(String), 0(Integer), 1(Integer), 2024-12-07 16:30:00.006(Timestamp)
+2024-12-07 16:30:00.014 DEBUG 10476 --- [RenrenScheduler_Worker-2] i.r.m.job.dao.ScheduleJobLogDao.insert   : <==    Updates: 1
+2024-12-07 17:00:00.010 DEBUG 10476 --- [RenrenScheduler_Worker-3] io.renren.modules.job.utils.ScheduleJob  : 任务准备执行，任务ID：1
+2024-12-07 17:00:00.010 DEBUG 10476 --- [RenrenScheduler_Worker-3] io.renren.modules.job.task.TestTask      : TestTask定时任务正在执行，参数为：renren
+2024-12-07 17:00:00.010 DEBUG 10476 --- [RenrenScheduler_Worker-3] io.renren.modules.job.utils.ScheduleJob  : 任务执行完毕，任务ID：1  总共耗时：0毫秒
+2024-12-07 17:00:00.013 DEBUG 10476 --- [RenrenScheduler_Worker-3] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==>  Preparing: INSERT INTO schedule_job_log ( job_id, bean_name, params, status, times, create_time ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2024-12-07 17:00:00.014 DEBUG 10476 --- [RenrenScheduler_Worker-3] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==> Parameters: 1(Long), testTask(String), renren(String), 0(Integer), 0(Integer), 2024-12-07 17:00:00.01(Timestamp)
+2024-12-07 17:00:00.017 DEBUG 10476 --- [RenrenScheduler_Worker-3] i.r.m.job.dao.ScheduleJobLogDao.insert   : <==    Updates: 1
+2024-12-07 17:32:44.693  INFO 10476 --- [QuartzScheduler_RenrenScheduler-ppj1733557026120_MisfireHandler] o.s.s.quartz.LocalDataSourceJobStore     : Handling 1 trigger(s) that missed their scheduled fire-time.
+2024-12-07 18:00:00.010 DEBUG 10476 --- [RenrenScheduler_Worker-4] io.renren.modules.job.utils.ScheduleJob  : 任务准备执行，任务ID：1
+2024-12-07 18:00:00.011 DEBUG 10476 --- [RenrenScheduler_Worker-4] io.renren.modules.job.task.TestTask      : TestTask定时任务正在执行，参数为：renren
+2024-12-07 18:00:00.011 DEBUG 10476 --- [RenrenScheduler_Worker-4] io.renren.modules.job.utils.ScheduleJob  : 任务执行完毕，任务ID：1  总共耗时：1毫秒
+2024-12-07 18:00:00.014 DEBUG 10476 --- [RenrenScheduler_Worker-4] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==>  Preparing: INSERT INTO schedule_job_log ( job_id, bean_name, params, status, times, create_time ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2024-12-07 18:00:00.015 DEBUG 10476 --- [RenrenScheduler_Worker-4] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==> Parameters: 1(Long), testTask(String), renren(String), 0(Integer), 1(Integer), 2024-12-07 18:00:00.01(Timestamp)
+2024-12-07 18:00:00.017 DEBUG 10476 --- [RenrenScheduler_Worker-4] i.r.m.job.dao.ScheduleJobLogDao.insert   : <==    Updates: 1
+2024-12-07 18:30:00.010 DEBUG 10476 --- [RenrenScheduler_Worker-5] io.renren.modules.job.utils.ScheduleJob  : 任务准备执行，任务ID：1
+2024-12-07 18:30:00.010 DEBUG 10476 --- [RenrenScheduler_Worker-5] io.renren.modules.job.task.TestTask      : TestTask定时任务正在执行，参数为：renren
+2024-12-07 18:30:00.010 DEBUG 10476 --- [RenrenScheduler_Worker-5] io.renren.modules.job.utils.ScheduleJob  : 任务执行完毕，任务ID：1  总共耗时：0毫秒
+2024-12-07 18:30:00.014 DEBUG 10476 --- [RenrenScheduler_Worker-5] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==>  Preparing: INSERT INTO schedule_job_log ( job_id, bean_name, params, status, times, create_time ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2024-12-07 18:30:00.015 DEBUG 10476 --- [RenrenScheduler_Worker-5] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==> Parameters: 1(Long), testTask(String), renren(String), 0(Integer), 0(Integer), 2024-12-07 18:30:00.01(Timestamp)
+2024-12-07 18:30:00.017 DEBUG 10476 --- [RenrenScheduler_Worker-5] i.r.m.job.dao.ScheduleJobLogDao.insert   : <==    Updates: 1
+2024-12-07 19:00:00.007 DEBUG 10476 --- [RenrenScheduler_Worker-6] io.renren.modules.job.utils.ScheduleJob  : 任务准备执行，任务ID：1
+2024-12-07 19:00:00.007 DEBUG 10476 --- [RenrenScheduler_Worker-6] io.renren.modules.job.task.TestTask      : TestTask定时任务正在执行，参数为：renren
+2024-12-07 19:00:00.007 DEBUG 10476 --- [RenrenScheduler_Worker-6] io.renren.modules.job.utils.ScheduleJob  : 任务执行完毕，任务ID：1  总共耗时：0毫秒
+2024-12-07 19:00:00.011 DEBUG 10476 --- [RenrenScheduler_Worker-6] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==>  Preparing: INSERT INTO schedule_job_log ( job_id, bean_name, params, status, times, create_time ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2024-12-07 19:00:00.011 DEBUG 10476 --- [RenrenScheduler_Worker-6] i.r.m.job.dao.ScheduleJobLogDao.insert   : ==> Parameters: 1(Long), testTask(String), renren(String), 0(Integer), 0(Integer), 2024-12-07 19:00:00.007(Timestamp)
+2024-12-07 19:00:00.014 DEBUG 10476 --- [RenrenScheduler_Worker-6] i.r.m.job.dao.ScheduleJobLogDao.insert   : <==    Updates: 1
+2024-12-07 19:28:40.615  INFO 10476 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler RenrenScheduler_$_ppj1733557026120 paused.
+2024-12-07 19:28:40.936  INFO 10476 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2024-12-07 19:28:40.937  INFO 10476 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler RenrenScheduler_$_ppj1733557026120 shutting down.
+2024-12-07 19:28:40.937  INFO 10476 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler RenrenScheduler_$_ppj1733557026120 paused.
+2024-12-07 19:28:41.354 ERROR 10476 --- [QuartzScheduler_RenrenScheduler-ppj1733557026120_MisfireHandler] o.s.s.quartz.LocalDataSourceJobStore     : MisfireHandler: Error handling misfires: Failed to obtain DB connection from data source 'springNonTxDataSource.RenrenScheduler': java.sql.SQLException: interrupt
+
+org.quartz.JobPersistenceException: Failed to obtain DB connection from data source 'springNonTxDataSource.RenrenScheduler': java.sql.SQLException: interrupt
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:168)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doRecoverMisfires(JobStoreSupport.java:3231)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.manage(JobStoreSupport.java:3997)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.run(JobStoreSupport.java:4018)
+Caused by: java.sql.SQLException: interrupt
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionInternal(DruidDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1306)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5007)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2745)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5003)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:680)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5003)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1284)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1276)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:89)
+	at org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource.getConnection(AbstractRoutingDataSource.java:194)
+	at org.springframework.scheduling.quartz.LocalDataSourceJobStore$2.getConnection(LocalDataSourceJobStore.java:140)
+	at org.quartz.utils.DBConnectionManager.getConnection(DBConnectionManager.java:108)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:165)
+	... 3 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(AbstractQueuedSynchronizer.java:1220)
+	at java.util.concurrent.locks.ReentrantLock.lockInterruptibly(ReentrantLock.java:335)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionInternal(DruidDataSource.java:1461)
+	... 16 common frames omitted
+
+2024-12-07 19:28:41.355  INFO 10476 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler RenrenScheduler_$_ppj1733557026120 shutdown complete.
